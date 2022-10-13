@@ -12,7 +12,7 @@ def read_file(file_path):
         return parser(file_data, file_type)
 
 
-def generate_diff(first_file_path, second_file_path, output_format='plain'):
+def generate_diff(first_file_path, second_file_path, output_format='json'):
     first, second = read_file(first_file_path), read_file(second_file_path)
     ast = build_ast(first, second)
     formatter = available_formatters.get(output_format)
