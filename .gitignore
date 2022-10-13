@@ -5,3 +5,7 @@ dist/
 .vscode
 .python-version
 .github/workflows
+__pycache__
+*.lock
+.coverage
+coverage.xml
