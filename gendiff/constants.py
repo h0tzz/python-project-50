@@ -1,4 +1,4 @@
-INDENT = '  '
+INDENT = ' '
 ADDED = '+'
 REMOVED = '-'
 NESTED = 'nested'
